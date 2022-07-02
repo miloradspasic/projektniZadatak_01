@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress automation test",
+  "main": "index.js",
+  "scripts": {
+    "cy_run_all_tests": "cypress run"
+  },
+  "author": "Milorad Spasic",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^10.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "mochawesome": "^7.1.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e",
+    "nonGlobalStepDefinitions": true
+  }
+}

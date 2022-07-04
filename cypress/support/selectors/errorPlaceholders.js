@@ -10,6 +10,7 @@ const errorMessages = {
   wrongDetails: "Wrong credentials. try again!",
   invalidFunds: "Unsupported operand types: int + string",
   usedEmail: "Email already exist!",
+  emailDoesntExist :" No email exist use valid email",
 };
 const successMessages = {
   newUsercreated: "Signup successfull please login.",

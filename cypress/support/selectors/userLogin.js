@@ -1,6 +1,7 @@
 const loginDetails = {
   email: '[placeholder="Email"]',
   password: '[placeholder="Password"]',
+  resetPassword:'[placeholder="your@email.com"]'
 };
 
 const createDetails = {
@@ -33,6 +34,7 @@ const agentUser = {
 
 const links = {
   addFunds: ".user_wallet > .waves-effect",
+  resetPass : "#fadein > div.container > div > div.modal-content.col.align-self-center > div.modal-body > div > form > div:nth-child(2) > div.d-flex.align-items-center.justify-content-between > div:nth-child(2) > label",
 };
 
 export { loginDetails, buttons, demoUser, agentUser, inputs, links, createDetails };
